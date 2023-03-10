@@ -1,9 +1,6 @@
 import sqlite3
 from emails import store_in_dbase, fetch_emails
 
-email_list = fetch_emails("Prabhuprasad Panda", "01-Jan-2022")
-store_in_dbase(email_list)
-
 class TestEmails:
     # def __init__(self) -> None:
     #     print('connected')
